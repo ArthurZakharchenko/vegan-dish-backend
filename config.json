@@ -1,0 +1,12 @@
+﻿{
+    "connectionString": "mongodb+srv://Arthur:bojack130699130699@cluster0.o2qi7.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "secret": "a57508f4-be62-4607-a358-01659f9bf475-a2f5e79e-d528-4983-88c6-2077312019e1-b4ae3255-69ad-4e89-858f-78b5dc76e2df-cca742df-b842-4a40-a69f-2d4a789da05d",
+    "emailFrom": "info@node-mongo-signup-verification-api.com",
+    "smtpOptions": {
+      "service": "gmail",
+      "auth": {
+          "user": "poker.games.incorp@gmail.com",
+          "pass": "bojack130699130699"
+      }
+    }
+}
