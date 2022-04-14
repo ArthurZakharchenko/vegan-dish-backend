@@ -241,12 +241,12 @@ function generateRefreshToken(account, ipAddress) {
 }
 
 function randomTokenString() {
-    return crypto.randomBytes(40).toString('hex');
+    return crypto.randomBytes(3).toString('hex');
 }
 
 function basicDetails(account) {
-    const { id, title, firstName, lastName, email, role, created, updated, isVerified } = account;
-    return { id, title, firstName, lastName, email, role, created, updated, isVerified };
+    const { id, accountName, email, role, created, updated, isVerified } = account;
+    return { id, accountName, email, role, created, updated, isVerified };
 }
 
 async function sendVerificationEmail(account, origin) {
